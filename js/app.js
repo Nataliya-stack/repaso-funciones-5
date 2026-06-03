@@ -1,8 +1,8 @@
-const revolverTexto = (texto) => texto.split("").reverse().join("");
-
 const inputEl = document.getElementById("inputTexto");
 const btnEl = document.getElementById("btnCalcular");
 const resultEl = document.getElementById("resultadoTexto");
+
+const revolverTexto = (texto) => texto.split("").reverse().join("");
 
 btnEl.addEventListener("click", () => {
     const texto = inputEl.value.trim();
